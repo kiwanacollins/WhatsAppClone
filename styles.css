@@ -15,7 +15,7 @@ body{
 
 .main-parent{
     background-color: #ffffff;
-    height: 100vh;
+    /* height: 100vh; */
     width: 30%;
 }
 
@@ -23,6 +23,8 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-block: 1px;
 }
 
 .upper-icons{
@@ -33,4 +35,64 @@ body{
 .upper-right{
     display: flex;
     align-items: center;
+    gap: 10px;
+}
+
+.parent-2{
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+.upper-headers{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #494545;
+}
+
+.all > p, .unread > p, .favourates > p, .groups > p{
+    background-color: #f0f0f0;;
+    height: 25px;
+    padding-top: 10px;
+    padding-inline: 10px;
+    font-size: 13px;
+    border-radius: 25px;
+}
+
+#this{
+    background-color: #cfcfcf;
+    border-radius: 15px;
+}
+
+.chats{
+    /* background-color: #c2c1c1; */
+    height: 50px;
+    margin-block: 5px;
+}
+
+.profile-pic > img{
+    height: 48px;
+}
+
+.left{
+    display: flex;
+    /* gap: 5px; */
+    flex-direction: row;
+}
+.user-name-and-message{
+    height: 45px;
+}
+
+.name{
+    margin-top: 3px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.message{
+    margin-top: -11px;
+    margin-left: 10px;
+    opacity: 0.7;
+    font-size: 12px;
+
 }
