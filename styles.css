@@ -17,6 +17,7 @@ body{
     background-color: #ffffff;
     /* height: 100vh; */
     width: 30%;
+    position: relative;
  
 }
 
@@ -119,5 +120,6 @@ body{
         bottom: 65px;
         left: 700px;
 }
+
 
 
