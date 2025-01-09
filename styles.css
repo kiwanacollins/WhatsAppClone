@@ -135,6 +135,16 @@ body{
     padding-bottom: 80px;
     position: relative;
 }
-
-
-
+.icons{
+    width:30px ;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.parent-4{
+    display: flex;
+    gap: 60px;
+}
+.down-fixed{
+    margin-left: 10px;
+}
