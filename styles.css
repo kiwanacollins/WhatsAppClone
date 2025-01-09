@@ -15,10 +15,12 @@ body{
 
 .main-parent{
     background-color: #ffffff;
-    /* height: 100vh; */
     width: 30%;
+    height: 100vh;
     position: relative;
- 
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .parent-1{
@@ -107,18 +109,31 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 30%;
+    position: fixed;
+    bottom: 90px;
+    right: 35.5%;
+    z-index: 2;
 }
 
 .meta-ai{
-   
-    position:fixed;
-    bottom: 110px;
-    left: 705px;
-}
-.add-people{
     position: fixed;
-        bottom: 65px;
-        left: 700px;
+    bottom: 140px;
+    right: calc(35.5% + 3px);
+    z-index: 2;
+}
+
+.fixed {
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.parent-3 {
+    flex: 1;
+    overflow-y: auto;
+    padding-bottom: 80px;
+    position: relative;
 }
 
 
